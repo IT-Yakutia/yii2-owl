@@ -1,0 +1,24 @@
+{
+    "name": "it-yakutia/yii2-owl",
+    "description": "Owl module for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "owl"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Ayaal Kaplin",
+        "email": "uraankhayayaal@gmail.com"
+      }
+    ],
+    "require": {
+      "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+      "bootstrap": "ityakutia\\owl\\Bootstrap"
+    },
+    "autoload": {
+      "psr-4": {
+        "ityakutia\\owl\\": "src"
+      }
+    }
+  }
